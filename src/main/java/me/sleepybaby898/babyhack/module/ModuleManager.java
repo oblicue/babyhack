@@ -14,6 +14,7 @@ import me.sleepybaby898.babyhack.module.modules.combat.HoleTP;
 import me.sleepybaby898.babyhack.module.modules.combat.KillAura;
 import me.sleepybaby898.babyhack.module.modules.movement.BunnyHop;
 import me.sleepybaby898.babyhack.module.modules.movement.Flight;
+import me.sleepybaby898.babyhack.module.modules.movement.HighwayFly;
 import me.sleepybaby898.babyhack.module.modules.movement.IceSpeed;
 import me.sleepybaby898.babyhack.module.modules.movement.NoFall;
 import me.sleepybaby898.babyhack.module.modules.movement.Parkour;
@@ -61,6 +62,7 @@ public class ModuleManager {
 		modules.add(new IceSpeed());
 		modules.add(new Excuse());
 		modules.add(new AutoTotem());
+		modules.add(new HighwayFly());
 	}
 	
 	public ArrayList<Module> getModules() {

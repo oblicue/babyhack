@@ -5,24 +5,28 @@ import org.lwjgl.input.Keyboard;
 import me.sleepybaby898.babyhack.module.Category;
 import me.sleepybaby898.babyhack.module.Module;
 import me.sleepybaby898.babyhack.setting.settings.SettingBoolean;
+import me.sleepybaby898.babyhack.setting.settings.SettingDouble;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.network.play.client.CPacketPlayer;
 
-public class Flight extends Module {
+// Lets you fly on the X highway
+public class HighwayFly extends Module {
 	Minecraft mc = Minecraft.getMinecraft();
 	SettingBoolean packet;
+	SettingDouble speed;
 	
-	public Flight() {
-		super("Fly",Keyboard.KEY_G,Category.MOVEMENT);
-		packet = this.register("Packet", true);	
+	public HighwayFly() {
+		super("easternhighwayfly",Keyboard.KEY_G,Category.MOVEMENT);
+		packet = this.register("Packet", true);
+		speed = this.register("Speed", 2.0D, 1.0D, 3.0D);
 	}
 	
 	public void update() {
 		EntityPlayerSP player = mc.player;
 		
 		player.capabilities.isFlying = false;
-		player.motionX = 0;
+		player.motionX = speed.getValue();
 		player.motionY = 0;
 		player.motionZ = 0;
 		player.jumpMovementFactor = 0.5f;
@@ -41,5 +45,4 @@ public class Flight extends Module {
             mc.player.connection.sendPacket(new CPacketPlayer.Position(mc.player.posX, mc.player.posY + 1.16610926093821D, mc.player.posZ, true));
 		}
 	}
-	
 }
