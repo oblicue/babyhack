@@ -1,0 +1,198 @@
+[15:54:14] [main/INFO] [GradleStart]: Extra: []
+[15:54:14] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/joseph-winblows/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:54:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:54:14] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:54:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:54:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:54:14] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[15:54:14] [main/INFO] [FML]: Java is Java HotSpot(TM) Client VM, version 1.8.0_291, running on Windows 10:x86:10.0, installed at C:\Program Files (x86)\Java\jdk1.8.0_291\jre
+[15:54:14] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[15:54:14] [main/ERROR] [FML]: Full: C:\Users\joseph-winblows\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[15:54:14] [main/ERROR] [FML]: Trimmed: c:/users/joseph-winblows/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[15:54:14] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[15:54:14] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[15:54:15] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[15:54:15] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[15:54:15] [main/INFO] [FML]: Found a command line coremod : me.sleepybaby898.babyhack.mixin.BabyHackMixinLoader
+[15:54:15] [main/WARN] [FML]: The coremod me.sleepybaby898.babyhack.mixin.BabyHackMixinLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[15:54:15] [main/INFO] [FML]: Ignoring missing certificate for coremod BabyHackMixinLoader (me.sleepybaby898.babyhack.mixin.BabyHackMixinLoader), as this is probably a dev workspace
+[15:54:15] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.4 Source=file:/C:/Users/joseph-winblows/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.4-SNAPSHOT/d22c5b223b3ff950cd165446dbc88afb162a8b6e/mixin-0.7.4-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENT
+[15:54:15] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[15:54:15] [main/ERROR] [mixin]: Mixin config mixins.babyhack.json does not specify "minVersion" property
+[15:54:15] [main/INFO] [FML]: Searching C:\Users\joseph-winblows\Desktop\babyhack\run\.\mods for mods
+[15:54:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:54:15] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[15:54:15] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[15:54:15] [main/INFO] [GradleStart]: Injecting location in coremod me.sleepybaby898.babyhack.mixin.BabyHackMixinLoader
+[15:54:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:54:15] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[15:54:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:54:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:54:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:54:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:54:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:54:17] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[15:54:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:54:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:54:17] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[15:54:17] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@ac6b76
+[15:54:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:54:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:54:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:54:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:54:17] [main/WARN] [mixin]: Reference map 'mixins.babyhack.refmap.json' for mixins.babyhack.json could not be read. If this is a development environment you can ignore this message
+[15:54:17] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:54:18] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player507
+[15:54:20] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[15:54:20] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[15:54:21] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (x86) version 10.0
+	Java Version: 1.8.0_291, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation
+	Memory: 44106648 bytes (42 MB) / 153579520 bytes (146 MB) up to 259522560 bytes (247 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+BabyHackMixinLoader (unknown)
+  
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 27.20.100.8682' Renderer: 'Intel(R) Iris(R) Plus Graphics 655'
+[15:54:21] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[15:54:21] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[15:54:21] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[15:54:22] [main/INFO] [FML]: Searching C:\Users\joseph-winblows\Desktop\babyhack\run\.\mods for mods
+[15:54:22] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[15:54:22] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhack] at CLIENT
+[15:54:22] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bhack] at SERVER
+[15:54:23] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:babyhack
+[15:54:23] [main/INFO] [FML]: Processing ObjectHolder annotations
+[15:54:23] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[15:54:23] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[15:54:23] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[15:54:23] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[15:54:23] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[15:54:23] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 55021200 nanos
+[15:54:23] [main/INFO] [FML]: Applying holder lookups
+[15:54:23] [main/INFO] [FML]: Holder lookups applied
+[15:54:23] [main/INFO] [FML]: Applying holder lookups
+[15:54:23] [main/INFO] [FML]: Holder lookups applied
+[15:54:23] [main/INFO] [FML]: Applying holder lookups
+[15:54:23] [main/INFO] [FML]: Holder lookups applied
+[15:54:23] [main/INFO] [FML]: Applying holder lookups
+[15:54:23] [main/INFO] [FML]: Holder lookups applied
+[15:54:23] [main/INFO] [FML]: Injecting itemstacks
+[15:54:23] [main/INFO] [FML]: Itemstack injection complete
+[15:54:26] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2855
+[15:54:27] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[15:54:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[15:54:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:54:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[15:54:27] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[15:54:32] [main/INFO] [FML]: Max texture size: 16384
+[15:54:32] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[15:54:33] [main/INFO] [FML]: Applying holder lookups
+[15:54:33] [main/INFO] [FML]: Holder lookups applied
+[15:54:33] [main/INFO] [FML]: Injecting itemstacks
+[15:54:33] [main/INFO] [FML]: Itemstack injection complete
+[15:54:33] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[15:54:33] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[15:54:33] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x86 successfully loaded
+[15:54:35] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[15:54:41] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[15:54:41] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[15:54:41] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[15:54:41] [Server thread/INFO] [FML]: Applying holder lookups
+[15:54:41] [Server thread/INFO] [FML]: Holder lookups applied
+[15:54:41] [Server thread/INFO] [FML]: Loading dimension 0 (test2) (net.minecraft.server.integrated.IntegratedServer@18ac891)
+[15:54:42] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[15:54:42] [Server thread/INFO] [FML]: Loading dimension -1 (test2) (net.minecraft.server.integrated.IntegratedServer@18ac891)
+[15:54:42] [Server thread/INFO] [FML]: Loading dimension 1 (test2) (net.minecraft.server.integrated.IntegratedServer@18ac891)
+[15:54:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[15:54:43] [Server thread/INFO] [FML]: Unloading dimension -1
+[15:54:43] [Server thread/INFO] [FML]: Unloading dimension 1
+[15:54:43] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 8, from 10
+[15:54:46] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[15:54:46] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[15:54:46] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2768,bhack@v1.2,mcp@9.42
+[15:54:46] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[15:54:46] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[15:54:46] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player507[local:E:e4c0883b] logged in with entity id 133 at (541.3264352877272, 4.0, -930.5567976559716)
+[15:54:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player507 joined the game
+[15:54:47] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[15:54:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'test2'/overworld
+[15:54:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player507: Set own game mode to Creative Mode]
+[15:54:55] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
+[15:55:02] [main/WARN] [net.minecraft.client.audio.SoundManager]: Unable to play empty soundEvent: minecraft:entity.small_slime.jump
+[15:55:03] [main/WARN] [net.minecraft.client.audio.SoundManager]: Unable to play empty soundEvent: minecraft:entity.small_slime.squish
+[15:55:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player507 has made the advancement [Cover Me With Diamonds]
+[15:55:06] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player507 has made the advancement [Cover Me With Diamonds]
+[15:55:06] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 7 advancements
+[15:55:08] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 9 advancements
+[15:55:15] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [babyhack] givebedrock was enabled.
+[15:55:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player507> everyone on this server is so bad come to X:543 Y: 4 Z: -930 ill crystalpvp you ez
+[15:55:15] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player507> everyone on this server is so bad come to X:543 Y: 4 Z: -930 ill crystalpvp you ez
+[15:55:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player507> my ca didnt work
+[15:55:17] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player507> my ca didnt work
+[15:55:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player507> my autototem bugged out
+[15:55:18] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player507> my autototem bugged out
+[15:55:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player507> im not using ca
+[15:55:18] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player507> im not using ca
+[15:55:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player507> my autototem bugged out
+[15:55:19] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player507> my autototem bugged out
+[15:55:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player507> im not using ca
+[15:55:20] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player507> im not using ca
+[15:55:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player507> my autototem bugged out
+[15:55:21] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player507> my autototem bugged out
+[15:55:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player507> sorry my mum came into the room
+[15:55:22] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player507> sorry my mum came into the room
+[15:55:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player507> i had to go afk
+[15:55:22] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player507> i had to go afk
+[15:55:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player507> my surround broke
+[15:55:23] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player507> my surround broke
+[15:55:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player507> im testing a custom client sorry
+[15:55:23] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player507> im testing a custom client sorry
+[15:55:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player507> im not using a hacked client
+[15:55:23] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player507> im not using a hacked client
+[15:55:28] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [babyhack] autototem was enabled.
+[15:55:29] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [babyhack] AutoArmour was enabled.
+[15:55:43] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [babyhack] Velocity was enabled.
+[15:55:49] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[15:55:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'test2'/overworld
+[15:55:59] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [babyhack] FullBright was enabled.
+[15:56:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player507: Set own game mode to Survival Mode]
+[15:56:06] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Survival Mode
+[15:56:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player507 has reached the goal [Postmortal]
+[15:56:08] [Netty Local Client IO #0/INFO] [STDOUT]: [me.sleepybaby898.babyhack.module.modules.player.Velocity:lambda$0:27]: cancelling explosion packet
+[15:56:08] [Netty Local Client IO #0/INFO] [STDOUT]: [me.sleepybaby898.babyhack.module.modules.player.Velocity:lambda$0:22]: cancelling packet
+[15:56:08] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player507 has reached the goal [Postmortal]
+[15:56:08] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 12 advancements
+[15:56:09] [Netty Local Client IO #0/INFO] [STDOUT]: [me.sleepybaby898.babyhack.module.modules.player.Velocity:lambda$0:27]: cancelling explosion packet
+[15:56:09] [Netty Local Client IO #0/INFO] [STDOUT]: [me.sleepybaby898.babyhack.module.modules.player.Velocity:lambda$0:22]: cancelling packet
+[15:56:10] [Netty Local Client IO #0/INFO] [STDOUT]: [me.sleepybaby898.babyhack.module.modules.player.Velocity:lambda$0:27]: cancelling explosion packet
+[15:56:10] [Netty Local Client IO #0/INFO] [STDOUT]: [me.sleepybaby898.babyhack.module.modules.player.Velocity:lambda$0:22]: cancelling packet
+[15:56:11] [Netty Local Client IO #0/INFO] [STDOUT]: [me.sleepybaby898.babyhack.module.modules.player.Velocity:lambda$0:27]: cancelling explosion packet
+[15:56:11] [Netty Local Client IO #0/INFO] [STDOUT]: [me.sleepybaby898.babyhack.module.modules.player.Velocity:lambda$0:22]: cancelling packet
+[15:56:12] [Netty Local Client IO #0/INFO] [STDOUT]: [me.sleepybaby898.babyhack.module.modules.player.Velocity:lambda$0:27]: cancelling explosion packet
+[15:56:12] [Netty Local Client IO #0/INFO] [STDOUT]: [me.sleepybaby898.babyhack.module.modules.player.Velocity:lambda$0:22]: cancelling packet
+[15:56:19] [Netty Local Client IO #0/INFO] [STDOUT]: [me.sleepybaby898.babyhack.module.modules.player.Velocity:lambda$0:22]: cancelling packet
+[15:56:19] [Netty Local Client IO #0/INFO] [STDOUT]: [me.sleepybaby898.babyhack.module.modules.player.Velocity:lambda$0:22]: cancelling packet
+[15:56:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player507 was slain by Slime
+[15:56:20] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player507 was slain by Slime
+[15:56:20] [Netty Local Client IO #0/INFO] [STDOUT]: [me.sleepybaby898.babyhack.module.modules.player.Velocity:lambda$0:22]: cancelling packet
+[15:56:20] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 18 advancements
+[15:56:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player507: Set own game mode to Creative Mode]
+[15:56:28] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
+[15:56:29] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[15:56:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'test2'/overworld
+[15:56:40] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[15:56:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[15:56:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[15:56:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[15:56:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'test2'/overworld
+[15:56:40] [Server thread/INFO] [FML]: Unloading dimension 0
+[15:56:40] [Server thread/INFO] [FML]: Applying holder lookups
+[15:56:40] [Server thread/INFO] [FML]: Holder lookups applied
+[15:56:40] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[15:56:40] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

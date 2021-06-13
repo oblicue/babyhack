@@ -1,0 +1,16 @@
+[
+{
+  "modid": "babyhack",
+  "name": "BabyHack",
+  "description": "best skidded client",
+  "version": "v1.0",
+  "mcversion": "[1.12.2]",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["sleepybaby898"],
+  "credits": "sleepybaby898 for being epic and swag and cool",
+  "logoFile": "https://cdn5.vectorstock.com/i/1000x1000/32/14/crying-baby-vector-1533214.jpg",
+  "screenshots": [],
+  "dependencies": []
+}
+]

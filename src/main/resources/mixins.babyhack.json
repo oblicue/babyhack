@@ -1,0 +1,10 @@
+{
+"required": true,
+"compatibilityLevel": "JAVA_8",
+"package": "me.sleepybaby898.babyhack.mixin.mixins",
+"refmap": "mixins.babyhack.refmap.json",
+"mixins": [
+	"MixinGuiMainMenu",
+	"MixinNetworkManager"
+]
+}
